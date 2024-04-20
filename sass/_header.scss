@@ -1,0 +1,62 @@
+.header {
+
+    text-align: center;
+
+    &--h1 {
+        margin-top: 2em;
+        font-size: 2.1em;
+        font-weight: normal;
+        line-height: 2.5em;
+        color: black;
+    }
+
+    &--text {
+        margin-top: 0.7em;
+        font-size: 1em;
+        font-weight: normal;
+        line-height: 1.4em;
+        color: black;
+
+        // Media H5 -Breack
+        &-breack {
+            @media (min-width: 768px) {
+                display: none;
+            }
+        }
+    }
+
+    &--button {
+        font-size: 0.9em;
+        font-weight: bold;
+        padding: 1.5em 5.5em;
+        border-radius: 2.5em;
+        margin-top: 1.87em;
+        color: white;
+        background-color: #08a6e4;
+        box-shadow: 5px 10px 14px 0px #07ace64a;
+        border-color: transparent;
+        margin-bottom: 6.5em;
+    }
+
+    &__img {
+        overflow: hidden;
+
+        &--laptop {
+
+            // Media Imagen Laptop
+            @media (min-width: 500px) {
+                height: 20em;
+                transform: scale(1.6);
+            }
+
+            @media (min-width: 1000px) {
+                height: 30em;
+                transform: scale(1.6);
+            }
+
+            width: 100%;
+            height: 12em;
+            transform: scale(1.7);
+        }
+    }
+}
