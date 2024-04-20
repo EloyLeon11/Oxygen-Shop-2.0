@@ -1,21 +1,26 @@
+$font-raleway: 'Raleway', sans-serif;
+$font-OpenSans: 'Open Sans', sans-serif;
+
 .header {
 
     text-align: center;
 
     &--h1 {
-        margin-top: 2em;
+        margin-top: 1.8em;
         font-size: 2.1em;
         font-weight: normal;
         line-height: 2.5em;
         color: black;
+        font-family: $font-raleway;
+        
     }
 
     &--text {
-        margin-top: 0.7em;
         font-size: 1em;
         font-weight: normal;
-        line-height: 1.4em;
+        line-height: 1em;
         color: black;
+        font-family: $font-OpenSans;
 
         // Media H5 -Breack
         &-breack {
@@ -30,12 +35,13 @@
         font-weight: bold;
         padding: 1.5em 5.5em;
         border-radius: 2.5em;
-        margin-top: 1.87em;
+        margin-top: 2em;
         color: white;
         background-color: #08a6e4;
         box-shadow: 5px 10px 14px 0px #07ace64a;
         border-color: transparent;
         margin-bottom: 6.5em;
+        font-family: $font-OpenSans;
     }
 
     &__img {

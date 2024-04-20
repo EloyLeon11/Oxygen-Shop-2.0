@@ -52,18 +52,19 @@
   text-align: center;
 }
 .header--h1 {
-  margin-top: 2em;
+  margin-top: 1.8em;
   font-size: 2.1em;
   font-weight: normal;
   line-height: 2.5em;
   color: black;
+  font-family: "Raleway", sans-serif;
 }
 .header--text {
-  margin-top: 0.7em;
   font-size: 1em;
   font-weight: normal;
-  line-height: 1.4em;
+  line-height: 1em;
   color: black;
+  font-family: "Open Sans", sans-serif;
 }
 @media (min-width: 768px) {
   .header--text-breack {
@@ -75,12 +76,13 @@
   font-weight: bold;
   padding: 1.5em 5.5em;
   border-radius: 2.5em;
-  margin-top: 1.87em;
+  margin-top: 2em;
   color: white;
   background-color: #08a6e4;
   box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
   border-color: transparent;
   margin-bottom: 6.5em;
+  font-family: "Open Sans", sans-serif;
 }
 .header__img {
   overflow: hidden;
