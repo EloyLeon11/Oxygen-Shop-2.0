@@ -1,0 +1,105 @@
+$font-raleway: 'Raleway', sans-serif;
+
+.numbersInfo {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 3.5em;
+
+
+    &--title {
+        font-family: $font-raleway;
+        font-size: 1.8em;
+        margin-bottom: 1.6em;       
+        font-weight: 310;
+        line-height: 1em;
+        text-align: center;
+        color: black;
+
+        // Media titulo
+        @media(min-width: 768px) {
+            
+            margin-bottom: 3em;
+            font-weight: 400;
+
+            &-breack {
+                display: none;
+                
+            }
+
+        }
+    }
+
+    &__container {
+
+        // Media del contenedot
+        @media(min-width: 768px) {
+            padding-bottom: 5em;
+            display: flex;
+            justify-content: space-around;
+        }
+
+
+        &--data {
+
+            &-redElipse {
+                transform: translateX(25%);
+            }
+
+            &-halfPerson {
+                transform: translate(-43%, -20%);
+            }
+
+            &-smallBlueEllipse {
+                transform: translateX(50%);
+            }
+
+            &-eye {
+                transform: translate(-20%, -40%);
+            }
+
+            &-greenEllipse {
+                transform: translateX(43%);
+            }
+
+            &-pages {
+                transform: translate(-18%, -20%);
+            }
+
+            &-numbers {
+                font-family: $font-raleway;
+                font-weight: 800;
+                font-size: 1.1em;
+                line-height: 1.4em;
+                letter-spacing: 0.2em;
+                margin-top: 0.5em;
+                text-align: center;
+                color: black;
+            }
+
+            &-description {
+                margin-bottom: 2em;
+                margin-top: 0.7em;
+                font-family: $font-raleway;
+                font-size: 1em;
+                font-weight: 400;
+                line-height: 1.1em;
+                text-align: center;
+                color: #A5A5A5;
+
+                // Media decription
+                @media(min-width: 768px) {
+
+                    &-breack {
+                        display: none;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
