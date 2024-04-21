@@ -1,0 +1,86 @@
+.prices {
+
+    &--title {
+        align-items: center;
+        margin-top: 1.5em;
+        font-family: 'Raleway', sans-serif;
+        font-size: 2em;
+        font-weight: 400;
+        line-height: 2.2em;
+        text-align: center;
+        color: black;
+    }
+
+    &__container {
+
+
+        &__card {
+
+            display: flex;
+            position: relative;
+            padding: 2em 2em;
+            margin: 0.2em 2em 3em 2em;         
+            border: 1px solid;
+            border-radius: 1.5em;
+            
+            &--price {
+                text-align: center;
+                width: 40%;
+                align-content: center;
+
+                &-title {
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 1em;
+                    font-weight: 700;
+                    line-height: 1.2em;
+                    color: #13253B;
+                }
+
+                &-number {
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 3em;  
+                }
+            }
+
+            &--checkList {
+
+                margin-left: 1.3em;
+
+                &-item {                   
+                    font-weight: 400;  
+                    text-align: center;
+                    color: black;
+                    margin-left: 2em;
+                    font-size: 0.8em;
+                    line-height: 1em;
+                    text-align: center;
+                    margin-bottom: 1.5em;
+                }
+
+                &-check {
+                    list-style: url("../assets/img/CheckboxGreen.png");
+                }
+
+                &-cross {
+                    list-style: url("../assets/img/CheckboxRed.png");
+                }
+
+            }
+
+            &--button {
+                border-radius: 11em;
+                position: absolute;
+                padding: 1.2em 4.4em;
+                bottom: -8%;
+                left: 25%; // Si hay algun problema puede ser por el left del boton
+                font-family: 'Open Sans', sans-serif;
+                font-size: 0.8em;
+                font-weight: 700;
+                line-height: 1.1em; 
+            }
+
+        }
+
+    }
+
+}
