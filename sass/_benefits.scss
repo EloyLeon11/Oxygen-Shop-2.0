@@ -1,0 +1,318 @@
+.benefits {
+    background-color: #f7f7f7;
+    margin-top: 2em;
+
+    &__container {
+        padding: 2em 1.5em;
+
+
+        // PRIMER ARTICULO
+        &__dataFirst {
+            background-color: white;
+            margin: 2em auto;
+            padding: 1.5em;
+            border: 1px solid #e8e9ed;
+            border-radius: 0.5em;
+
+            // Media data
+            @media (min-width: 768px) {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                margin: 2em auto;
+                max-width: 55em;
+                padding-bottom: 4em;
+                padding-right: 4em;
+            }
+
+            &--img {
+
+                &-redRectangle {
+                    transform: translateX(80%);
+
+                    // Media img ellipse
+                    @media (min-width: 768px) {
+                        transform: translate(90%);
+
+                    }
+                }
+
+                &-macbook {
+                    transform: translateX(-50%);
+                    width: 52%;
+                }
+
+                // Media img laptop
+                @media (min-width: 768px) {
+                    transform: scale(1.4);
+                    margin-top: 4em;
+                    margin-left: 2em;
+                    width: 100%;
+                }
+
+                // Media img laptop
+                @media (min-width: 568px) {
+                    transform: scale(1.4);
+                    margin-top: 4em;
+                    margin-left: 2em;
+                    width: 100%;
+                }
+
+            }
+
+            &--info {
+
+                // Media info
+                @media (min-width: 768px) {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                &-title {
+                    font-family: "Raleway", sans-serif;
+                    font-size: 1.9em;
+                    line-height: 1.1em;
+                    text-align: left;
+                    margin-left: 0.5em;
+                    margin-top: 1em;
+                    margin-bottom: 1em;
+                    font-weight: 400;
+                    color: black;
+                }
+
+                &-description {
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 500;
+                    line-height: 1.3em;
+                    text-align: left;
+                    margin-bottom: 1.4em;
+                    margin-left: 0.9em;
+                    color: black;
+
+                    // Media Descripcion
+                    @media (min-width: 768px) {
+
+                        width: 70%;
+                    }
+                }
+
+                // Vector
+                &-vector {
+                    @media (max-width: 768px) {
+                        display: none;
+                    }
+
+                    @media (min-width: 768px) {
+                        margin-top: 1.6em;
+                        width: 80%;
+                    }
+
+                }
+
+            }
+
+        }
+
+        // SEGUNDO ARTICULO
+        &__dataSecond {
+
+            background-color: white;
+            margin: 2em auto;
+            padding: 1.5em;
+            border: 1px solid #e8e9ed;
+            border-radius: 0.5em;
+
+            // Media data
+            @media (min-width: 768px) {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                margin: 2em auto;
+                max-width: 55em;
+                padding-bottom: 4em;
+                padding-right: 4em;
+            }
+
+            &--img {
+
+
+                &-blueEllipse {
+
+                    transform: translateX(60%);
+                    width: 45%;
+
+
+                    // Media img ellipse
+                    @media (min-width: 768px) {
+                        transform: translate(90%);
+
+                    }
+                }
+
+                &-phone {
+
+                    transform: translateX(-40%);
+                    width: 50%;
+
+
+                }
+
+                // Media img laptop
+                @media (min-width: 768px) {
+                    transform: scale(1.4);
+
+
+                }
+
+                // Media img laptop
+                @media (min-width: 568px) {
+                    transform: scale(1.4);
+
+                }
+
+            }
+
+            &--info {
+
+                // Media info
+                @media (min-width: 768px) {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                &-title {
+                    font-family: "Raleway", sans-serif;
+                    font-size: 1.9em;
+                    line-height: 1.1em;
+                    text-align: left;
+                    margin-left: 0.5em;
+                    margin-top: 1em;
+                    margin-bottom: 1em;
+                    font-weight: 400;
+                    color: black;
+                }
+
+                &-description {
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 500;
+                    line-height: 1.3em;
+                    text-align: left;
+                    margin-bottom: 1.4em;
+                    margin-left: 0.9em;
+                    color: black;
+
+                    // Media Descripcion
+                    @media (min-width: 768px) {}
+                }
+
+                // Vector
+                &-vector {
+                    @media (max-width: 768px) {
+                        display: none;
+                    }
+
+                    @media (min-width: 768px) {
+                        margin-top: 1.6em;
+                        width: 80%;
+                    }
+
+                }
+
+            }
+
+        }
+
+        // TERCER ARTICULO
+        &__dataThird {
+
+            margin-top: 2em;
+            background-color: white;
+            border: 1px solid #e8e9ed;
+            border-radius: 0.5em;
+
+
+            @media (min-width: 768px) {
+                display: flex;
+                padding-bottom: 3em;
+                margin: 2em auto;
+                max-width: 55em;
+                background-color: #f7f7f7;
+                border: none;
+
+                justify-content: space-between;
+            }
+
+            &--img {
+
+                background-color: #55dfb4;
+
+                @media (min-width: 768px) {
+                    border: 1px solid #e8e9ed;
+                    border-radius: 0.5em;
+                    padding-right: 8em;
+                    padding-bottom: 3em;
+                }
+
+                &--trumpet {
+                    padding-top: 2em;
+                    margin-top: 5em;
+                    margin-left: 1em;
+                }
+            }
+
+            &--info {
+
+                // Media info
+                @media (min-width: 768px) {
+                    border: 1px solid #e8e9ed;
+                    background-color: white;
+                    padding-right: 8em;
+                    padding-bottom: 3em;
+                    border-radius: 0.5em;
+                }
+
+                &-title {
+                    font-family: "Raleway", sans-serif;
+                    font-size: 1.9em;
+                    line-height: 1.1em;
+                    text-align: left;
+                    margin-left: 0.5em;
+                    margin-top: 1em;
+                    margin-bottom: 1em;
+                    font-weight: 400;
+                    color: black;
+                }
+
+                &-description {
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 500;
+                    line-height: 1.3em;
+                    text-align: left;
+                    margin-bottom: 1.4em;
+                    margin-left: 0.9em;
+                    color: black;
+
+                    // Media Descripcion
+                    @media (min-width: 768px) {}
+                }
+
+                // Vector
+                &-vector {
+                    @media (max-width: 768px) {
+                        display: none;
+                    }
+
+                    @media (min-width: 768px) {
+                        margin-top: 1.6em;
+                        width: 80%;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
