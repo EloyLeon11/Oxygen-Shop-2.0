@@ -15,7 +15,7 @@
 
 <body>
 
-    <!-- NAVEJACION (navbar)-->
+    <!-- NAVEJACION (_navbar)-->
     <nav class="navbar">
         <!-- Logo -->
         <a href="#" class="navbar__logo">
@@ -41,7 +41,7 @@
         </div>
     </nav>
 
-    <!-- HEADER (header)-->
+    <!-- HEADER (_header)-->
     <header class="header">
 
         <!-- Titulo -->
@@ -63,7 +63,7 @@
 
     </header>
 
-    <!-- INFORMACION NUMEROS (numbersInfo) -->
+    <!-- INFORMACION NUMEROS (_numbersInfo) -->
     <section class="numbersInfo">
 
         <!-- Title -->
@@ -115,7 +115,7 @@
 
     </section>
 
-    <!-- BENEFICIOS (benefits) -->
+    <!-- BENEFICIOS (_benefits) -->
     <main class="benefits">
 
         <!-- Contenedor para los articulos -->
@@ -211,7 +211,7 @@
 
     </main>
 
-    <!-- PRECIOS (pricing)-->
+    <!-- PRECIOS (_pricing)-->
     <div class="prices">
 
         <!-- Title -->
@@ -267,7 +267,7 @@
 
             <!-- CARD PROFESSIONAL -->
             <article class="prices__container__card prices__container__card--red">
-            
+
                 <div class="prices__container__card--price">
 
                     <p class="prices__container__card--price-title">Professional</p>
@@ -275,7 +275,7 @@
                         $25
                     </p>
 
-                </div>     
+                </div>
 
                 <ul class="prices__container__card--checkList">
 
@@ -309,7 +309,7 @@
 
             <!-- CARD PREMIUM -->
             <article class="prices__container__card prices__container__card--red">
-             
+
                 <div class="prices__container__card--price">
 
                     <p class="prices__container__card--price-title">Premium</p>
@@ -352,12 +352,100 @@
         </section>
     </div>
 
+    <!-- CONTACT (_contact) -->
+    <section class="contact">
+
+        <!-- INFORMATION-->
+        <article class="contact__information">
+
+            <!-- Title -->
+            <div class="contact__information--title">
+
+                <p class="contact__information--title-name">Any questions?</p>
+                <p class="contact__information--title-text">
+                    Leave your email address or call us!
+                </p>
+
+            </div>
+
+            <!-- US -->
+            <div class="contact__information_us">
+
+                <!-- Email -->
+                <div class="contact__information__us--email">
+
+                    <img class="contact__information__us--email-img" src="assets/Image/Envelope.png" alt="Envelope" />
+
+                    <p class="contact__information__us--email-text">
+                        information@bestshop.xyz
+                    </p>
+
+                </div>
+
+                <!-- Number -->
+                <div class="contact__information__us--number">
+                    <img class="contact__information__us--number-img" src="./assets/Image/Phone.png" alt="Phone" />
+                    <p class="contact__information__us--number-text">123 456 789</p>
+                </div>
+
+            </div>
+
+        </article>
+
+        <!-- FORMULARIO -->
+        <form class="contact__identification">
+
+            <!-- Name User -->
+            <label class="contact__identification-label" for="name">NAME</label>
+            <input class="contact__identification-input" id="name" type="text" />
+
+            <!-- Email User -->
+            <label class="contact__identification-label" for="email">EMAIL</label>
+            <input class="contact__identification-input" id="email" type="email" />
 
 
+            <!-- check -->
+            <input class="contact__identification-checkIcon" type="checkbox" name="check" />
 
+            <label class="contact__identification-checkText" checked="checked" for="check">
+                <p>
+                    I hereby give consent for my personal data included in my
+                    application to be processed for the purposes of the recruitment
+                    process under the European Parliament's and Council of the European
+                    Union Regulation on the Protection of Natural Persons as of 27 April
+                    2016, with regard to the processing of personal data and on the free
+                    movement of such data, and repealing Directive 95/46/EC (Data
+                    Protection Directive)
+                </p>
+            </label>
 
+            <!-- Boton -->
+            <button class="contact__identification-button" type="submit">
+                Send
+            </button>
 
-    <!------------------------------------------------------------------------------------ -->
+        </form>
+
+    </section>
+
+    <!-- FOOTER (_footer)-->
+    <footer class="footer">
+
+        <div class="footer--info">
+
+            <p class="footer--info-title">OXYGENShop</p>
+            <p class="footer--info-copyRight">
+                © 2022 OXYGEN, All Rights Reserved
+            </p>
+        </div>
+
+        <div class="footer--icons">
+            <img class="footer--icons-X" src="./assets/Image/logoX.png" alt="X icon " />
+            <img class="footer--icons-facebook" src="./assets/Image/FacebookIcon.png" alt="Facebook icon" />
+        </div>
+
+    </footer>
+
 </body>
 
 </html>
