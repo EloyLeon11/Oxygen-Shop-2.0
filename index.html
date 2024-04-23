@@ -2,9 +2,8 @@
 <html lang="en">
 
 <!-- HEAD -->
-
 <head>
-    <meta charset="UTF-8" />
+   <meta  charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
@@ -12,32 +11,33 @@
 </head>
 
 <!-- BODY -->
-
 <body>
 
     <!-- NAVEJACION (_navbar)-->
     <nav class="navbar">
         <!-- Logo -->
-        <a href="#" class="navbar__logo">
-            <img class="navbar__logo-img" src="./assets/Image/Logo.png" alt="Company logo" />
+        <a href="#" class="navbar--logo">
+            <img class="navbar--logo-img" src="./assets/Image/Logo.png" alt="Company logo" />
         </a>
 
         <!-- Boton -->
-        <button class="navbar__button">
-            <img src="./assets/Image/Menu.png" alt="Menu Button" class="navbar__button-img" />
+        <button class="navbar--button">
+            <img src="./assets/Image/Menu.png" alt="Menu Button" class="navbar--button-img" />
         </button>
 
         <!-- Menu-->
         <div class="navbar__menu">
             <ul class="navbar__menu--list">
-                <li class="navbar__menu--list-item">WHY US</li>
+
+           <li class="navbar__menu--list-item"><a>WHY US</a></li>
 
                 <li class="navbar__menu--list-item">BENEFITS</li>
 
                 <li class="navbar__menu--list-item">PRICES</li>
 
-                <li class="navbar__menu--list-item">CONTACT</li>
+                <li class="navbar__menu--list-item"><a>CONTACT</a></li>
             </ul>
+            
         </div>
     </nav>
 
@@ -227,7 +227,7 @@
                 <div class="prices__container__card--price">
 
                     <p class="prices__container__card--price-title">Basic</p>
-                    <p class="prices__container__card--price-number">
+                    <p class="prices__container__card--price-number prices__container__card--price-number--red">
                         $0
                     </p>
 
@@ -259,19 +259,19 @@
                 </ul>
 
                 <!-- Boton -->
-                <button class="prices__container__card--button ">
+                <button class="prices__container__card--button prices__container__card--button--red ">
                     Begin
                 </button>
 
             </article>
 
             <!-- CARD PROFESSIONAL -->
-            <article class="prices__container__card prices__container__card--red">
+            <article class="prices__container__card prices__container__card--blue">
 
                 <div class="prices__container__card--price">
 
                     <p class="prices__container__card--price-title">Professional</p>
-                    <p class="prices__container__card--price-number">
+                    <p class="prices__container__card--price-number prices__container__card--price-number--blue">
                         $25
                     </p>
 
@@ -301,19 +301,19 @@
 
                 </ul>
 
-                <button class="prices__container__card--button ">
+                <button class="prices__container__card--button prices__container__card--button--blue ">
                     Begin
                 </button>
 
             </article>
 
             <!-- CARD PREMIUM -->
-            <article class="prices__container__card prices__container__card--red">
+            <article class="prices__container__card prices__container__card--green">
 
                 <div class="prices__container__card--price">
 
                     <p class="prices__container__card--price-title">Premium</p>
-                    <p class="prices__container__card--price-number">
+                    <p class="prices__container__card--price-number prices__container__card--price-number--green">
                         $60
                     </p>
 
@@ -343,7 +343,7 @@
 
                 </ul>
 
-                <button class="prices__container__card--button ">
+                <button class="prices__container__card--button prices__container__card--button--green">
                     Begin
                 </button>
 

@@ -19,10 +19,24 @@
             display: flex;
             position: relative;
             padding: 2em 2em;
-            margin: 0.2em 2em 3em 2em;         
+            margin: 0.2em 2em 3em 2em;
             border: 1px solid;
             border-radius: 1.5em;
-            
+
+            // Color
+            &--red {
+                border-color: red;
+            }
+
+            &--blue {
+                border-color: blue;
+            }
+
+            &--green {
+                border-color: green;
+            }
+
+
             &--price {
                 text-align: center;
                 width: 40%;
@@ -38,7 +52,22 @@
 
                 &-number {
                     font-family: 'Open Sans', sans-serif;
-                    font-size: 3em;  
+                    font-size: 3em;
+
+                    // Color
+                   
+                &--red {
+                    color: #EB476E;
+
+                }
+
+                &--blue {
+                    color: #07ACE6;
+                }
+
+                &--green {
+                    color: #55DFB4;
+                }
                 }
             }
 
@@ -46,8 +75,8 @@
 
                 margin-left: 1.3em;
 
-                &-item {                   
-                    font-weight: 400;  
+                &-item {
+                    font-weight: 400;
                     text-align: center;
                     color: black;
                     margin-left: 2em;
@@ -58,11 +87,11 @@
                 }
 
                 &-check {
-                    list-style: url("../assets/img/CheckboxGreen.png");
+                    list-style: url("../assets/Image/CheckboxGreen.png");
                 }
 
                 &-cross {
-                    list-style: url("../assets/img/CheckboxRed.png");
+                    list-style: url("../assets/Image/CheckboxRed.png");
                 }
 
             }
@@ -76,7 +105,24 @@
                 font-family: 'Open Sans', sans-serif;
                 font-size: 0.8em;
                 font-weight: 700;
-                line-height: 1.1em; 
+                line-height: 1.1em;
+                color: white;
+
+                // Color
+                &--red {
+                    border-color: transparent;
+                    background-color: red;
+                }
+
+                &--blue {
+                    border-color: transparent;
+                    background-color: rgb(30, 0, 255);
+                }
+
+                &--green {
+                    border-color: transparent;
+                    background-color: rgb(0, 255, 89);
+                }
             }
 
         }

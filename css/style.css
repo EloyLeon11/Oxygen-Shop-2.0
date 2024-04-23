@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.navbar__logo {
+.navbar--logo {
   margin-left: 1em;
 }
 .navbar__menu {
@@ -36,14 +36,14 @@
   margin-left: 3em;
   line-height: 0.9em;
 }
-.navbar__button {
+.navbar--button {
   position: absolute;
   right: 2em;
   background-color: transparent;
   border: none;
 }
 @media (min-width: 768px) {
-  .navbar__button {
+  .navbar--button {
     display: none;
   }
 }
@@ -445,6 +445,15 @@
   border: 1px solid;
   border-radius: 1.5em;
 }
+.prices__container__card--red {
+  border-color: red;
+}
+.prices__container__card--blue {
+  border-color: blue;
+}
+.prices__container__card--green {
+  border-color: green;
+}
 .prices__container__card--price {
   text-align: center;
   width: 40%;
@@ -461,6 +470,15 @@
   font-family: "Open Sans", sans-serif;
   font-size: 3em;
 }
+.prices__container__card--price-number--red {
+  color: #EB476E;
+}
+.prices__container__card--price-number--blue {
+  color: #07ACE6;
+}
+.prices__container__card--price-number--green {
+  color: #55DFB4;
+}
 .prices__container__card--checkList {
   margin-left: 1.3em;
 }
@@ -475,10 +493,10 @@
   margin-bottom: 1.5em;
 }
 .prices__container__card--checkList-check {
-  list-style: url("../assets/img/CheckboxGreen.png");
+  list-style: url("../assets/Image/CheckboxGreen.png");
 }
 .prices__container__card--checkList-cross {
-  list-style: url("../assets/img/CheckboxRed.png");
+  list-style: url("../assets/Image/CheckboxRed.png");
 }
 .prices__container__card--button {
   border-radius: 11em;
@@ -490,6 +508,19 @@
   font-size: 0.8em;
   font-weight: 700;
   line-height: 1.1em;
+  color: white;
+}
+.prices__container__card--button--red {
+  border-color: transparent;
+  background-color: red;
+}
+.prices__container__card--button--blue {
+  border-color: transparent;
+  background-color: rgb(30, 0, 255);
+}
+.prices__container__card--button--green {
+  border-color: transparent;
+  background-color: rgb(0, 255, 89);
 }
 
 .contact {
