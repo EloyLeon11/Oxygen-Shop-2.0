@@ -61,7 +61,7 @@
 }
 .header--text {
   font-size: 1em;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1em;
   color: black;
   font-family: "Open Sans", sans-serif;
@@ -82,7 +82,6 @@
   box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
   border-color: transparent;
   margin-bottom: 6.5em;
-  font-family: "Open Sans", sans-serif;
 }
 .header__img {
   overflow: hidden;
@@ -115,7 +114,7 @@
   font-family: "Raleway", sans-serif;
   font-size: 1.8em;
   margin-bottom: 1.6em;
-  font-weight: 310;
+  font-weight: 300;
   line-height: 1em;
   text-align: center;
   color: black;
@@ -241,7 +240,7 @@
 }
 .benefits__container__dataFirst--info-title {
   font-family: "Raleway", sans-serif;
-  font-size: 1.9em;
+  font-size: 1.5em;
   line-height: 1.1em;
   text-align: left;
   margin-left: 0.5em;
@@ -252,8 +251,8 @@
 }
 .benefits__container__dataFirst--info-description {
   font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  line-height: 1.3em;
+  font-weight: 400;
+  font-size: 0.8em;
   text-align: left;
   margin-bottom: 1.4em;
   margin-left: 0.9em;
@@ -440,19 +439,19 @@
 .prices__container__card {
   display: flex;
   position: relative;
-  padding: 2em 2em;
+  padding: 2.5em 1em;
   margin: 0.2em 2em 3em 2em;
   border: 1px solid;
   border-radius: 1.5em;
 }
 .prices__container__card--red {
-  border-color: red;
+  border-color: #FB3B64;
 }
 .prices__container__card--blue {
-  border-color: blue;
+  border-color: #07ACE6;
 }
 .prices__container__card--green {
-  border-color: green;
+  border-color: #55DFB4;
 }
 .prices__container__card--price {
   text-align: center;
@@ -465,19 +464,29 @@
   font-weight: 700;
   line-height: 1.2em;
   color: #13253B;
+  margin-bottom: 0.6em;
 }
 .prices__container__card--price-number {
   font-family: "Open Sans", sans-serif;
   font-size: 3em;
+  font-weight: lighter;
 }
 .prices__container__card--price-number--red {
-  color: #EB476E;
+  color: #FB3B64;
 }
 .prices__container__card--price-number--blue {
   color: #07ACE6;
 }
 .prices__container__card--price-number--green {
   color: #55DFB4;
+}
+.prices__container__card--price-limitedOffer {
+  margin-top: 0.1em;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  line-height: 0.8em;
+  color: #13253B;
 }
 .prices__container__card--checkList {
   margin-left: 1.3em;
@@ -512,15 +521,15 @@
 }
 .prices__container__card--button--red {
   border-color: transparent;
-  background-color: red;
+  background-color: #FB3B64;
 }
 .prices__container__card--button--blue {
   border-color: transparent;
-  background-color: rgb(30, 0, 255);
+  background-color: #07ACE6;
 }
 .prices__container__card--button--green {
   border-color: transparent;
-  background-color: rgb(0, 255, 89);
+  background-color: #55DFB4;
 }
 
 .contact {
@@ -556,7 +565,7 @@
 .contact__information__us--email-text {
   display: inline-block;
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 500;
   text-align: left;
   font-family: "Open Sans", sans-serif;
   color: #A5A5A5;
@@ -574,7 +583,7 @@
 .contact__information__us--number-text {
   display: inline-block;
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 500;
   text-align: left;
   font-family: "Open Sans", sans-serif;
   color: #A5A5A5;
@@ -587,7 +596,7 @@
 .contact__identification-label {
   font-family: "Open Sans", sans-serif;
   font-size: 0.8em;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 0.8em;
   letter-spacing: 0.2em;
   text-align: left;
@@ -667,7 +676,7 @@
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   color: #A5A5A5;
-  font-size: 0.7em;
+  font-size: 0.6em;
   font-weight: 400;
   line-height: 0.9em;
   text-align: left;

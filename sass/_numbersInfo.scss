@@ -8,10 +8,10 @@ $font-raleway: 'Raleway', sans-serif;
 
 
     &--title {
-        font-family: $font-raleway;
+        font-family:'Raleway', sans-serif;
         font-size: 1.8em;
         margin-bottom: 1.6em;       
-        font-weight: 310;
+        font-weight: 300;
         line-height: 1em;
         text-align: center;
         color: black;
@@ -67,7 +67,7 @@ $font-raleway: 'Raleway', sans-serif;
             }
 
             &-numbers {
-                font-family: $font-raleway;
+                font-family:'Raleway', sans-serif;
                 font-weight: 800;
                 font-size: 1.1em;
                 line-height: 1.4em;
@@ -80,7 +80,7 @@ $font-raleway: 'Raleway', sans-serif;
             &-description {
                 margin-bottom: 2em;
                 margin-top: 0.7em;
-                font-family: $font-raleway;
+                font-family:'Raleway', sans-serif;
                 font-size: 1em;
                 font-weight: 400;
                 line-height: 1.1em;

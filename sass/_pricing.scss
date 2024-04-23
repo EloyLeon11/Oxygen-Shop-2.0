@@ -18,22 +18,22 @@
 
             display: flex;
             position: relative;
-            padding: 2em 2em;
+            padding: 2.5em 1em;
             margin: 0.2em 2em 3em 2em;
             border: 1px solid;
             border-radius: 1.5em;
 
             // Color
             &--red {
-                border-color: red;
+                border-color: #FB3B64;
             }
 
             &--blue {
-                border-color: blue;
+                border-color: #07ACE6;
             }
 
             &--green {
-                border-color: green;
+                border-color: #55DFB4;
             }
 
 
@@ -48,26 +48,39 @@
                     font-weight: 700;
                     line-height: 1.2em;
                     color: #13253B;
+                    margin-bottom: 0.6em;
                 }
 
                 &-number {
                     font-family: 'Open Sans', sans-serif;
                     font-size: 3em;
+                    font-weight: lighter;
+                    
 
                     // Color
-                   
-                &--red {
-                    color: #EB476E;
+
+                    &--red {
+                        color: #FB3B64;
+
+                    }
+
+                    &--blue {
+                        color: #07ACE6;
+                    }
+
+                    &--green {
+                        color: #55DFB4;
+                    }
 
                 }
 
-                &--blue {
-                    color: #07ACE6;
-                }
-
-                &--green {
-                    color: #55DFB4;
-                }
+                &-limitedOffer{
+                    margin-top: 0.1em;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 0.8em;
+                    font-weight: 700;
+                    line-height: 0.8em;
+                    color: #13253B;
                 }
             }
 
@@ -111,17 +124,17 @@
                 // Color
                 &--red {
                     border-color: transparent;
-                    background-color: red;
+                    background-color: #FB3B64;
                 }
 
                 &--blue {
                     border-color: transparent;
-                    background-color: rgb(30, 0, 255);
+                    background-color: #07ACE6;
                 }
 
                 &--green {
                     border-color: transparent;
-                    background-color: rgb(0, 255, 89);
+                    background-color: #55DFB4;
                 }
             }
 
