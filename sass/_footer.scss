@@ -1,53 +1,44 @@
 .footer {
     width: 100%;
     padding: 1em;
-
     box-shadow: 0px -5px 40px 0px #00000033;
 
     &--info {
-
         display: inline-block;
         width: 60%;
         margin-bottom: 1em;
 
         &-title {
-            font-family: 'Raleway', sans-serif;
+            font-family: "Raleway", sans-serif;
             font-size: 1.4em;
             font-weight: 300;
             line-height: 1.8em;
             text-align: left;
-            color: #08A6E4;
-    
-    
+            color: #08a6e4;
         }
-    
+
         &-copyRight {
             display: inline-block;
-            font-family: 'Open Sans', sans-serif;
-            color: #A5A5A5;
+            font-family: "Open Sans", sans-serif;
+            color: #a5a5a5;
             font-size: 0.6em;
             font-weight: 400;
             line-height: 0.9em;
-            text-align: left;     
+            text-align: left;
         }
-    
     }
 
     &--icons {
         display: inline-block;
         width: 30%;
         text-align: right;
-    
+
         &-X {
             padding-left: 1em;
-            width: 40%;
         }
-    
+
         &-facebook {
             margin-left: 1em;
         }
-    
     }
-
 }
-

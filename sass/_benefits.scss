@@ -19,10 +19,9 @@
                 display: flex;
                 flex-direction: row-reverse;
                 justify-content: space-between;
-                margin: 2em auto;
+
                 max-width: 55em;
-                padding-bottom: 4em;
-                padding-right: 4em;
+
             }
 
             &--img {
@@ -32,7 +31,8 @@
 
                     // Media img ellipse
                     @media (min-width: 768px) {
-                        transform: translate(90%);
+                        transform: translate(100%, -30%);
+                        width: 30%;
 
                     }
                 }
@@ -44,19 +44,12 @@
 
                 // Media img laptop
                 @media (min-width: 768px) {
-                    transform: scale(1.4);
-                    margin-top: 4em;
-                    margin-left: 2em;
-                    width: 100%;
+                    margin-top: 2em;
+                    transform: translate(30%);
+                    width: 50%;
                 }
 
-                // Media img laptop
-                @media (min-width: 568px) {
-                    transform: scale(1.4);
-                    margin-top: 4em;
-                    margin-left: 2em;
-                    width: 100%;
-                }
+
 
             }
 
@@ -78,7 +71,7 @@
                     margin-bottom: 1em;
                     font-weight: 400;
                     color: black;
-                    
+
 
                 }
 
@@ -127,7 +120,7 @@
             // Media data
             @media (min-width: 768px) {
                 display: flex;
-                flex-direction: row-reverse;
+
                 justify-content: space-between;
                 margin: 2em auto;
                 max-width: 55em;
@@ -137,17 +130,23 @@
 
             &--img {
 
+                @media (min-width: 768px) {
+                    display: flex;
+                    max-width: 55em;
+                    justify-content: space-between;
+                }
 
                 &-blueEllipse {
 
                     transform: translateX(60%);
                     width: 45%;
 
-
-                    // Media img ellipse
+                    // Media img ellipse Blue
                     @media (min-width: 768px) {
-                        transform: translate(90%);
-
+                        transform: translate(70%);
+                        width: 80%;
+                        height: 80%;
+                        margin-top: 3em;
                     }
                 }
 
@@ -156,22 +155,15 @@
                     transform: translateX(-40%);
                     width: 50%;
 
-
+                    @media (min-width: 768px) {
+                        transform: translateX(-20%);
+                        width: 25em;
+                        margin-top: 4em;
+                    }
                 }
 
-                // Media img laptop
-                @media (min-width: 768px) {
-                    transform: scale(1.4);
-
-
-                }
-
-                // Media img laptop
-                @media (min-width: 568px) {
-                    transform: scale(1.4);
-
-                }
-
+                // Media img phone
+                @media (min-width: 568px) {}
             }
 
             &--info {
@@ -180,6 +172,7 @@
                 @media (min-width: 768px) {
                     display: flex;
                     flex-direction: column;
+                    margin-left: 5em;
                 }
 
                 &-title {
@@ -215,7 +208,7 @@
 
                     @media (min-width: 768px) {
                         margin-top: 1.6em;
-                        width: 80%;
+                        width: 70%;
                     }
 
                 }
@@ -255,10 +248,15 @@
                     padding-bottom: 3em;
                 }
 
-                &--trumpet {
-                    padding-top: 2em;
-                    margin-top: 5em;
+                &-trumpet {
+                    margin-top: 3em;
                     margin-left: 1em;
+
+                    @media (min-width: 768px) {
+                        width: 100%;
+                        margin-top: 5em;
+                        margin-left: 2em;
+                    }
                 }
             }
 
@@ -271,6 +269,7 @@
                     padding-right: 8em;
                     padding-bottom: 3em;
                     border-radius: 0.5em;
+                    margin-right: 2em;
                 }
 
                 &-title {
@@ -283,6 +282,11 @@
                     margin-bottom: 1em;
                     font-weight: 400;
                     color: black;
+
+                    @media (min-width: 768px) {
+                     margin-left: 1em;
+                    // falta el display none breack
+                    }
                 }
 
                 &-description {
@@ -295,7 +299,10 @@
                     color: black;
 
                     // Media Descripcion
-                    @media (min-width: 768px) {}
+                    @media (min-width: 768px) {
+                        margin-left: 2em;
+                        // falta el display none del breack
+                    }
                 }
 
                 // Vector
@@ -307,6 +314,7 @@
                     @media (min-width: 768px) {
                         margin-top: 1.6em;
                         width: 80%;
+                        margin-left: 2em;
                     }
 
                 }

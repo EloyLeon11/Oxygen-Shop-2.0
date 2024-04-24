@@ -9,10 +9,18 @@
         line-height: 2.2em;
         text-align: center;
         color: black;
+        margin-bottom: 2em;
     }
 
     &__container {
 
+        @media (min-width: 768px) {
+            display: flex;
+            gap: 1.5em;
+            align-items: center;
+            margin-left: 2em;
+           
+        }
 
         &__card {
 
@@ -22,6 +30,19 @@
             margin: 0.2em 2em 3em 2em;
             border: 1px solid;
             border-radius: 1.5em;
+
+            @media (min-width: 768px) {
+                display: flex;
+                height: 28em;
+                width: 20em;
+
+                &:hover {
+                    cursor: pointer;
+                    box-shadow: 5px 10px 27px 0px #fa597c5d;
+                    transform: scale(1.1);
+                    transition: transform 0.1s ease;
+                }
+            }
 
             // Color
             &--red {
@@ -42,6 +63,11 @@
                 width: 40%;
                 align-content: center;
 
+                @media (min-width: 768px) {
+                    display: flex;
+                    justify-content: start;
+                }
+
                 &-title {
                     font-family: 'Raleway', sans-serif;
                     font-size: 1em;
@@ -49,13 +75,34 @@
                     line-height: 1.2em;
                     color: #13253B;
                     margin-bottom: 0.6em;
+
+                    @media (min-width: 768px) {
+                        @media (min-width: 768px) {
+                            position: absolute;
+                            top: 3em;
+                            left: 0;
+                            right: 0;
+                        }
+
+                    }
                 }
 
                 &-number {
                     font-family: 'Open Sans', sans-serif;
                     font-size: 3em;
                     font-weight: lighter;
-                    
+
+                    @media (min-width: 768px) {
+                        position: absolute;
+                        text-align: center;
+                        margin-left: 2em;
+                        margin-top: 1em;
+                        height: 10%;
+                        margin-right: 10em;
+                        justify-content: center;
+                        // posible error
+                    }
+
 
                     // Color
 
@@ -74,13 +121,20 @@
 
                 }
 
-                &-limitedOffer{
+                &-limitedOffer {
                     margin-top: 0.1em;
                     font-family: 'Raleway', sans-serif;
                     font-size: 0.8em;
                     font-weight: 700;
                     line-height: 0.8em;
                     color: #13253B;
+
+                    @media (min-width: 768px) {
+                        display: flex;
+                        position: absolute;
+                        right: 9em;
+                        margin-top: 8.5em;
+                    }
                 }
             }
 
@@ -88,7 +142,26 @@
 
                 margin-left: 1.3em;
 
+                @media (min-width: 768px) {
+                    display: flex;
+                    position: absolute;
+                    flex-direction: column;
+                    margin-left: 4em;
+                    margin-top: 10em;
+                }
+
                 &-item {
+
+                    @media (min-width: 768px) {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 19.07px;
+                        text-align: center;
+                        margin-bottom: 0.5em;
+                        color: black;
+                        padding: 0.4em 0em;
+                    }
+
                     font-weight: 400;
                     text-align: center;
                     color: black;
