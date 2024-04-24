@@ -455,9 +455,10 @@
 @media (min-width: 768px) {
   .prices__container {
     display: flex;
-    gap: 1.5em;
+    gap: 2.5em;
     align-items: center;
     margin-left: 2em;
+    justify-content: center;
   }
 }
 .prices__container__card {
@@ -632,6 +633,7 @@
     margin-right: 5em;
     margin-top: 5em;
     padding-left: 11em;
+    justify-content: center;
   }
 }
 .contact__information {

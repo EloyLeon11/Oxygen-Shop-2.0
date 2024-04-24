@@ -1,23 +1,13 @@
-@use"navbar";
-@use"header";
-@use"numbersInfo";
-@use"benefits";
-@use"pricing";
-@use"contact";
-@use"footer";
+@use "navbar";
+@use "header";
+@use "numbersInfo";
+@use "benefits";
+@use "pricing";
+@use "contact";
+@use "footer";
 
 * {
     box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   
- 
+    margin: 0;
+    padding: 0;
 }
-
-
-// VARIABLES
-
-// $font-raleway: 'Raleway', sans-serif;
-
-// $font-OpenSans: 'Open Sans', sans-serif;
-
